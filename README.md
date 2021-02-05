@@ -1,15 +1,15 @@
-#Project-4
-##Operationalize a Machine Learning Microservice Api
+# Project-4
+## Operationalize a Machine Learning Microservice Api
 
 [![CircleCI](https://circleci.com/gh/ravisethi21/project4-udacity.svg?style=svg)](https://circleci.com/gh/ravisethi21/circleci-docs)
 
 
-###Summary
+### Summary
 
 Contanerizing a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. Data was initially taken from Kaggle,the data source site. This project tests our ability to operationalize a Python flask app—in a provided file, app.py—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling. The app is containerized via docker desktop and kubernetes cluster. It is verified by circleci.
 
 
-###Instructons
+### Instructons
 
 1) clone devops udacity repo (starter code)
 2) created .circleci/config.yml
@@ -49,7 +49,7 @@ Contanerizing a pre-trained, sklearn model that has been trained to predict hous
 25) Adding a status badge.
 
 
-###Repository Overview
+### Repository Overview
 
 1) .circleci
 	- .circleci/config.yml for circleci configuration
