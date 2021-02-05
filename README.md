@@ -1,5 +1,5 @@
-# Project-4
-## Operationalize a Machine Learning Microservice Api
+# **Project-4**
+## **Operationalize a Machine Learning Microservice Api**
 
 [![CircleCI](https://circleci.com/gh/ravisethi21/project4-udacity.svg?style=svg)](https://circleci.com/gh/ravisethi21/circleci-docs)
 
@@ -9,44 +9,44 @@
 Contanerizing a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. Data was initially taken from Kaggle,the data source site. This project tests our ability to operationalize a Python flask app—in a provided file, app.py—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling. The app is containerized via docker desktop and kubernetes cluster. It is verified by circleci.
 
 
-### Instructons
+### Steps
 
-1) clone devops udacity repo (starter code)
+1) cloned devops udacity repo (starter code)
 2) created .circleci/config.yml
-3) setting up virtual environment
+3) set up virtual environment
 		- python3 -m venv ~/.devops
 		- source ~/.devops/bin/activate
-4) installing dependencies via makefile
+4) installed dependencies via makefile
 		- make install
 5) linting project (hadolint for Dockerfile / pylint for Python)
 		-make lint
-6) Completing steps in Dockerfile
-7) Completing run_docker.sh
+6) Completed steps in Dockerfile
+7) Completed run_docker.sh
 8) Running run_docker.sh
 		- ./run_docker.sh
 9) Running predictions via make_predictons.sh in another terminal.
 		- ./make_predictions.sh
-10) Adding log statement in app.py
+10) Added log statement in app.py
 11) Repeat steps 8 and 9
-12) Add the logs in docker_out.txt
-13) Completing upload_docker.sh
-14) Uploading image on dockerhub via upload_docker.sh
+12) Added the logs in docker_out.txt
+13) Completed upload_docker.sh
+14) Uploaded image on dockerhub via upload_docker.sh
 		- ./upload_docker.sh
 15) Configure Kubernetes to run locally
 		- kubectl config view
-16) Completing run_kubernetes.sh
+16) Completed run_kubernetes.sh
 17) Running run_kubernetes.sh
 		- ./run_kubernetes.sh
 18) checking status of kubernetes pod
 		- kubectl get pod
-19) Repeating step 17 once status is running.
+19) Repeat step 17 once status is running.
 20) Making a Prediction via make_predictions.sh
 		- ./make_prediction.sh
 21) Add the logs in kubernetes_out.txt
 22) Delete the kubernetes cluster
-23) Push project directory to github
-24) Setting up Circleci project
-25) Adding a status badge.
+23) Pushed project directory to github
+24) Set up Circleci project
+25) Added a status badge.
 
 
 ### Repository Overview
